@@ -5,11 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Encriptador/Desencriptador</title>
 </head>
 
 <body>
     <img src="imgs/Logo.png" id="logo">
+    <div class="contenedorPrincipal">
+        <div class="contenedorDelIngresoDeTexto">
+
+            <textarea class="textoATransformar" placeholder="Ingrese el texto aqui"></textarea>
+            <p class="aclaraciones"><img id="icono-aclaracion" src="imgs/bi--exclamation-circle-fill.svg"> Solo letras
+                minúsculas y sin acentos</p>
+
+            <div class="botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="texto-enc-des">
+            <img src="imgs/Muñeco.png" alt="muñeco" id="muneco">
+            <div class="texto-enc-des-titulo">
+                <p class="texto-enc-des-titulo-1">Ningún mensaje fue encontrado</p>
+                <p class="texto-enc-des-parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

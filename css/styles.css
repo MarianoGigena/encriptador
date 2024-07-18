@@ -1,7 +1,128 @@
+body {
+    background-color: #E5E5E5;
+}
+
+
 #logo {
     width: 120px;
     height: 48px;
     position: fixed;
     top: 40px;
     left: 40px;
+}
+
+.textoATransformar {
+    position: fixed;
+    background-color: #E5E5E5;
+    color: darkblue;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    left: 240px;
+    top: 168px;
+    width: 700px;
+    height: 650px;
+}
+
+.textoATransformar::placeholder {
+    color: darkblue;
+    font-weight: 400;
+}
+
+.aclaraciones {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 240px;
+    top: 700px;
+    font-size: 12px;
+
+}
+
+#icono-aclaracion {
+    color: gray;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    gap: 24px;
+    width: 680px;
+    left: 240px;
+    top: 750px;
+}
+
+.btn-encriptar {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+    color: #D8DFE8;
+    background-color: darkblue;
+    font-weight: 300;
+    border-radius: 24px;
+}
+
+.btn-desencriptar {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+    color: darkblue;
+    background-color: #D8DFE8;
+    font-weight: 300;
+    border-radius: 24px;
+    border-color: darkblue;
+}
+
+.texto-enc-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 40px;
+    left: 1000px;
+    width: 400px;
+    height: 850px;
+    background-color: white;
+    border-radius: 32px;
+    text-align: center;
+
+
+}
+
+
+#muneco {
+    width: 336px;
+    height: 304px;
+}
+
+.texto-enc-des-titulo {
+    width: 336px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.texto-enc-des-titulo-1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+}
+
+.texto-enc-des-parrafo {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
 }
