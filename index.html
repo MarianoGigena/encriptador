@@ -16,23 +16,34 @@
     <div class="contenedorPrincipal">
         <div class="contenedorDelIngresoDeTexto">
 
-            <textarea class="textoATransformar" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="textoATransformar" id="texto-a-transformar" placeholder="Ingrese el texto aqui"></textarea>
             <p class="aclaraciones"><img id="icono-aclaracion" src="imgs/bi--exclamation-circle-fill.svg"> Solo letras
                 minúsculas y sin acentos</p>
 
             <div class="botones">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button>
+                <button id="boton1" class="btn-encriptar">Encriptar</button>
+                <button id="boton2" class="btn-desencriptar">Desencriptar</button>
             </div>
         </div>
         <div class="texto-enc-des">
-            <img src="imgs/Muñeco.png" alt="muñeco" id="muneco">
-            <div class="texto-enc-des-titulo">
-                <p class="texto-enc-des-titulo-1">Ningún mensaje fue encontrado</p>
-                <p class="texto-enc-des-parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            <textarea class="texto-convertido" id="texto-convertido2"></textarea>
+            <div id="boton-copiar"></div>
+
+            <div id="conversor-inicio">
+                <img src="imgs/Muñeco.png" alt="muñeco" id="muneco">
+                <div class="texto-enc-des-titulo">
+                    <p class="texto-enc-des-titulo-1">Ningún mensaje fue encontrado</p>
+                    <p class="texto-enc-des-parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                </div>
             </div>
         </div>
     </div>
+
+    <script src="./js/encriptador.js"></script>
+    <script src="./js/desencriptador.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
