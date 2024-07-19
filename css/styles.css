@@ -1,5 +1,7 @@
 body {
+    position: relative;
     background-color: #E5E5E5;
+    min-height: 2800px;
 }
 
 
@@ -166,4 +168,123 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: gray;
+}
+
+@media (max-width: 768px) {
+
+    /* Aquí van los estilos que quieres aplicar a pantallas con un ancho menor o igual a 768 píxeles */
+    #logo {
+        width: 120px;
+        height: 48px;
+        position: relative;
+        top: 40px;
+        left: 0px;
+    }
+
+    .textoATransformar {
+        position: relative;
+        background-color: #E5E5E5;
+        color: darkblue;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        border: none;
+        outline: none;
+        left: 40px;
+        top: 240x;
+        width: 600px;
+        height: 480px;
+    }
+
+    .botones {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        gap: 24px;
+        width: 600px;
+        left: 50px;
+        top: 150px;
+    }
+
+    .aclaraciones {
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 60px;
+        top: 130px;
+        font-size: 12px;
+
+    }
+
+    #muneco {
+        display: none;
+    }
+
+    .contenedorPrincipal {
+        display: flex;
+        position: relative;
+        flex-direction: column !important;
+    }
+
+    .texto-enc-des {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        left: 40px;
+        top: 200px;
+        width: 600px;
+        height: 400px;
+
+    }
+
+    .texto-enc-des-titulo {
+        width: 500px;
+        font-family: "Inter", sans-serif;
+
+    }
+
+    .texto-convertido-estilo {
+        left: 5px;
+        position: relative !important;
+        top: 0px !important;
+        padding: 15px !important;
+        display: flex;
+        text-align: left !important;
+        align-items: start !important;
+        justify-content: start !important;
+        font-family: "Inter", sans-serif;
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        border: none;
+        outline: none;
+        height: 400px !important;
+        width: 600px !important;
+        border-radius: 32px;
+
+    }
+
+    .botonCopiar {
+        position: absolute;
+        display: flex;
+        left: 0px;
+        top: 315px;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        width: 600px;
+        height: 67px;
+        color: darkblue;
+        background-color: #D8DFE8;
+        border-radius: 24px;
+        border-color: darkblue;
+
+
+    }
+
+
 }
